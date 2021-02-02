@@ -4,7 +4,7 @@ body {
 }
 
 html {
-  font-size: 125%;
+  font-size: 90%;
   line-height: 1.4;
   font-family: Helvetica;
 }
@@ -58,4 +58,10 @@ body {
 h1,
 h2 {
   margin: 0;
+}
+img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+  object-fit: cover;
 }
