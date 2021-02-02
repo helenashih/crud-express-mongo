@@ -1,0 +1,33 @@
+{
+  "name": "crud-express-mongo",
+  "version": "1.0.0",
+  "description": "Demo for Crud Express MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node pm2.js",
+    "restart": "node pm2.js crud-demo --update-env",
+    "dev": "nodemon server.js",
+    "sync": "node sync.js"
+  },
+  "author": "Helena Shih",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "pm2": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "rsync": "^0.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "crud-express-mongo"
+  },
+  "keywords": [
+    "crud-express-mongo"
+  ]
+}
